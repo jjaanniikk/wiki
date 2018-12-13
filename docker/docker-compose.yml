@@ -1,0 +1,9 @@
+version: '3'
+services:
+    postgresql:
+        image: postgres:9.6.5
+        environment:
+        - POSTGRES_USER=passenger
+        - POSTGRES_PASSWORD=secret
+        ports:
+        - 5434:5432

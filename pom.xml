@@ -24,7 +24,9 @@
 	<modules>
 		<module>web</module>
 		<module>web-ui</module>
-	</modules>
+        <module>repository</module>
+        <module>service</module>
+    </modules>
 
 	<dependencyManagement>
 		<dependencies>
@@ -38,6 +40,16 @@
 				<artifactId>web-ui</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>repository</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>service</artifactId>
+                <version>${project.version}</version>
+            </dependency>
 		</dependencies>
 	</dependencyManagement>
 
