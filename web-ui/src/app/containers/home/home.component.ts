@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {ActivatedRoute, Router} from "@angular/router";
-import {EintragService} from "../services/eintrag.service";
-import {Eintrag} from "../services/eintrag";
+import {EintragService} from "../../services/eintrag.service";
+import {Eintrag} from "../../services/eintrag";
 
 
 @Component({

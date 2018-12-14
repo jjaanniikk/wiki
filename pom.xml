@@ -22,24 +22,14 @@
 	</properties>
 
 	<modules>
-		<module>web</module>
-		<module>web-ui</module>
         <module>repository</module>
         <module>service</module>
+        <module>web-ui</module>
+        <module>web</module>
     </modules>
 
 	<dependencyManagement>
 		<dependencies>
-			<dependency>
-				<groupId>com.example</groupId>
-				<artifactId>web</artifactId>
-				<version>${project.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>com.example</groupId>
-				<artifactId>web-ui</artifactId>
-				<version>${project.version}</version>
-			</dependency>
             <dependency>
                 <groupId>com.example</groupId>
                 <artifactId>repository</artifactId>
@@ -48,6 +38,16 @@
             <dependency>
                 <groupId>com.example</groupId>
                 <artifactId>service</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>web-ui</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>web</artifactId>
                 <version>${project.version}</version>
             </dependency>
 		</dependencies>
