@@ -13,4 +13,10 @@ export class EintragService {
   public getEintraege(): Observable<Array<Eintrag>> {
     return this.http.get<Array<Eintrag>>(API_URL);
   }
+
+  public createEintrag(eintrag: Eintrag): Observable<Eintrag> {
+    return this.http.post<Eintrag>(API_URL, eintrag);
+  }
+
+
 }

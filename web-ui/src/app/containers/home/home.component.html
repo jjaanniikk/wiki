@@ -10,15 +10,18 @@
   <br>
   <br>
 
-  <!--<div id="eintrag_liste">-->
-    <!--<ul class="list-group">-->
-      <!--<li class="list-group-item">Cras justo odio</li>-->
-      <!--<li class="list-group-item">Dapibus ac facilisis in</li>-->
-      <!--<li class="list-group-item">Morbi leo risus</li>-->
-      <!--<li class="list-group-item">Porta ac consectetur ac</li>-->
-      <!--<li class="list-group-item">Vestibulum at eros</li>-->
-    <!--</ul>-->
-  <!--</div>-->
+  <div class="alert alert-success" role="alert" *ngIf="createSuccessful">
+    Passenger created succsessfull! <a routerLink="/passengers" routerLinkActive="active" class="alert-link">Back to
+    passenger overview</a>
+  </div>
+
+  <!--Nachricht wenn kein Passenger in DB-->
+  <div *ngIf="eintraege?.length == 0">
+    <div class="alert alert-dark" role="alert">
+      <h4 class="alert-heading">Entschuldigen Sie</h4>
+      <p>Aktuell ist kein Eintrag vorhanden</p>
+    </div>
+  </div>
 
   <ng-container *ngFor="let eintrag of eintraege">
     <ul class="list-group">

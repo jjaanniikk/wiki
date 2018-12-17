@@ -5,7 +5,7 @@ import com.example.demo.repository.eintrag.Eintrag;
 
 public class EintragDto {
 
-    private Integer id;
+    private long id;
 
     private String titel;
 
@@ -18,7 +18,7 @@ public class EintragDto {
         // For Libraries
     }
 
-    public EintragDto(Integer id, String titel, String text, Integer parent_id){
+    public EintragDto(Long id, String titel, String text, Integer parent_id){
 
         this.id = id;
         this.titel = titel;
@@ -26,11 +26,11 @@ public class EintragDto {
         this.parent_id = parent_id;
     }
 
-    public Integer getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(long id) {
         this.id = id;
     }
 

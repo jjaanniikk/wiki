@@ -1,4 +1,4 @@
-<form [formGroup]="createForm">
+<form [formGroup]="createForm" (ngSubmit)="doCreateEintrag()">
   <div class="form-group input-group mb-3">
     <div class="input-group-prepend">
       <label class="input-group-text" for="eintrag_titel">Titel</label>
@@ -17,7 +17,9 @@
     </div>
     <textarea class="form-control"
               id="eintrag_text"
-              rows="7"></textarea>
+              rows="7"
+              formControlName="text"
+    ></textarea>
   </div>
   <button type="submit" class="btn btn-info">Create</button>
 </form>

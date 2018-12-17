@@ -2,10 +2,7 @@ package com.example.demo.web.controller;
 
 import com.example.demo.service.EintragService;
 import com.example.demo.service.dto.EintragDto;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -23,5 +20,10 @@ public class EintragRestController {
     @GetMapping
     public List<EintragDto> getEintraege(){
         return eintragService.getEintraege();
+    }
+
+    @PostMapping
+    public void createEintrag(@RequestBody EintragDto eintragDto) {
+        this.eintragService.createEintrag(eintragDto);
     }
 }

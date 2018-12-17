@@ -7,12 +7,13 @@ import javax.validation.constraints.NotBlank;
 
 
 @Entity
+@Table(name = "eintrag")
 public class Eintrag {
-
 
     @Valid
     @Id
-    private Integer id;
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    private Long id;
 
     @NotBlank
     private String titel;
@@ -26,18 +27,18 @@ public class Eintrag {
         //for frameworks
     }
 
-    public Eintrag(@Valid Integer id, @NotBlank String titel, @NotBlank String text, Integer parent_id) {
+    public Eintrag(@Valid Long id, @NotBlank String titel, @NotBlank String text, Integer parent_id) {
         this.id = id;
         this.titel = titel;
         this.text = text;
         this.parent_id = parent_id;
     }
 
-    public Integer getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

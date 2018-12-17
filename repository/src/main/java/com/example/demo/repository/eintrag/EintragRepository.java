@@ -5,5 +5,5 @@ import org.springframework.stereotype.Repository;
 
 
 @Repository
-public interface EintragRepository extends JpaRepository<Eintrag, Integer> {
+public interface EintragRepository extends JpaRepository<Eintrag, Long> {
 }
