@@ -1,0 +1,4 @@
+com/example/demo/repository/kommentar/Kommentar.class
+com/example/demo/repository/eintrag/Eintrag.class
+com/example/demo/repository/eintrag/EintragRepository.class
+com/example/demo/repository/kommentar/KommentarRepository.class

@@ -1,3 +1,5 @@
-/home/janik/Dokumente/projects/wiki/service/src/main/java/com/example/demo/service/dto/PassengerDto.java
+/home/janik/Dokumente/projects/wiki/service/src/main/java/com/example/demo/service/dto/KommentarDto.java
 /home/janik/Dokumente/projects/wiki/service/src/main/java/com/example/demo/service/EintragService.java
+/home/janik/Dokumente/projects/wiki/service/src/main/java/com/example/demo/service/KommentarService.java
 /home/janik/Dokumente/projects/wiki/service/src/main/java/com/example/demo/service/EintragNotFoundException.java
+/home/janik/Dokumente/projects/wiki/service/src/main/java/com/example/demo/service/dto/EintragDto.java

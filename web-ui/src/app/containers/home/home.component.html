@@ -10,20 +10,20 @@
   <br>
   <br>
 
-  <div id="eintrag_liste">
-    <ul class="list-group">
-      <li class="list-group-item">Cras justo odio</li>
-      <li class="list-group-item">Dapibus ac facilisis in</li>
-      <li class="list-group-item">Morbi leo risus</li>
-      <li class="list-group-item">Porta ac consectetur ac</li>
-      <li class="list-group-item">Vestibulum at eros</li>
-    </ul>
-  </div>
-
-  <!--<ng-container *ngFor="let eintrag of eintraege">-->
+  <!--<div id="eintrag_liste">-->
     <!--<ul class="list-group">-->
-      <!--<li class="list-group-item">{{eintrag.titel}}</li>-->
+      <!--<li class="list-group-item">Cras justo odio</li>-->
+      <!--<li class="list-group-item">Dapibus ac facilisis in</li>-->
+      <!--<li class="list-group-item">Morbi leo risus</li>-->
+      <!--<li class="list-group-item">Porta ac consectetur ac</li>-->
+      <!--<li class="list-group-item">Vestibulum at eros</li>-->
     <!--</ul>-->
-  <!--</ng-container>-->
+  <!--</div>-->
+
+  <ng-container *ngFor="let eintrag of eintraege">
+    <ul class="list-group">
+      <li class="list-group-item">{{eintrag.titel}}</li>
+    </ul>
+  </ng-container>
 
 </div>

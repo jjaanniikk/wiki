@@ -17,14 +17,16 @@ public class Eintrag {
     @NotBlank
     private String titel;
 
+    @NotBlank
     private String text;
 
     private Integer parent_id;
 
+    protected Eintrag() {
+        //for frameworks
+    }
 
-
-
-    public Eintrag(@Valid Integer id, @NotBlank String titel, String text, Integer parent_id) {
+    public Eintrag(@Valid Integer id, @NotBlank String titel, @NotBlank String text, Integer parent_id) {
         this.id = id;
         this.titel = titel;
         this.text = text;
@@ -51,10 +53,7 @@ public class Eintrag {
         this.parent_id = parent_id;
     }
 
-    public String getTitel() {
-        return titel;
-
-    }
+    public String getTitel() { return titel; }
 
     public String getText() {
         return text;

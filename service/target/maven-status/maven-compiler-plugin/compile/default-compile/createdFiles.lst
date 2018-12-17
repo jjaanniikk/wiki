@@ -1,3 +1,3 @@
-com/example/demo/service/dto/PassengerDto.class
-com/example/demo/service/EintragNotFoundException.class
+com/example/demo/service/KommentarService.class
 com/example/demo/service/EintragService.class
+com/example/demo/service/dto/EintragDto.class
