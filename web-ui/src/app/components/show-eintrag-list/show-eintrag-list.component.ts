@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
+import {Eintrag} from "../../services/eintrag";
+import {EintragService} from "../../services/eintrag.service";
+import {ActivatedRoute, Router} from "@angular/router";
 
 @Component({
   selector: 'app-show-eintrag-list',
@@ -7,9 +10,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ShowEintragListComponent implements OnInit {
 
-  constructor() { }
+  @Input() eintrag: Eintrag;
+  @Output() view: EventEmitter<Eintrag> = new EventEmitter<Eintrag>();
+
+  private id: number;
+
+  constructor(
+    private route: ActivatedRoute
+  ) {
+    this.route.params.subscribe(params => (this.id = params["id"]));
+  }
 
   ngOnInit() {
+
+  }
+
+  onViewEintrag(eintrag: Eintrag) {
+    this.view.emit(eintrag);
+    console.log(this.eintrag.id);
   }
 
 }

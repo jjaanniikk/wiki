@@ -25,6 +25,11 @@ public class EintragService {
                 .collect(Collectors.toList());
     }
 
+    public Eintrag getTextById(long textId) {
+        return eintragRepository.findById(textId)
+                .orElseThrow(() -> new EintragNotFoundException("Entity not found! " + textId));
+    }
+
     public void createEintrag(EintragDto eintragDto) {
         this.eintragRepository.save
                 (new Eintrag(

@@ -1,5 +1,6 @@
 package com.example.demo.web.controller;
 
+import com.example.demo.repository.eintrag.Eintrag;
 import com.example.demo.service.EintragService;
 import com.example.demo.service.dto.EintragDto;
 import org.springframework.web.bind.annotation.*;
@@ -20,6 +21,12 @@ public class EintragRestController {
     @GetMapping
     public List<EintragDto> getEintraege(){
         return eintragService.getEintraege();
+    }
+
+    @GetMapping("/{eintragId}")
+    public Eintrag getEintragById(@PathVariable long eintragId){
+        return this.eintragService.getTextById(eintragId);
+
     }
 
     @PostMapping

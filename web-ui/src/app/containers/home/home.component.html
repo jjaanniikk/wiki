@@ -10,10 +10,6 @@
   <br>
   <br>
 
-  <div class="alert alert-success" role="alert" *ngIf="createSuccessful">
-    Passenger created succsessfull! <a routerLink="/passengers" routerLinkActive="active" class="alert-link">Back to
-    passenger overview</a>
-  </div>
 
   <!--Nachricht wenn kein Passenger in DB-->
   <div *ngIf="eintraege?.length == 0">
@@ -24,9 +20,11 @@
   </div>
 
   <ng-container *ngFor="let eintrag of eintraege">
-    <ul class="list-group">
-      <li class="list-group-item">{{eintrag.titel}}</li>
-    </ul>
+    <app-show-eintrag-list
+    [eintrag]="eintrag"
+    (view)='handleViewEintrag($event)'
+    ></app-show-eintrag-list>
   </ng-container>
+
 
 </div>

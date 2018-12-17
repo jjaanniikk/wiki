@@ -8,7 +8,8 @@ import {SubEintragComponent} from "./containers/sub-eintrag/sub-eintrag.componen
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'create', component: CreateComponent },
-  { path: 'EintragmussGeandertWerden', component: EintragComponent },
+  { path: ':eintragId/edit', component: CreateComponent },
+  { path: ':eintragId', component: EintragComponent },
   { path: 'SubEintragmussGeandertWerden', component: SubEintragComponent },
   { path: '**', redirectTo: '/', pathMatch: 'full' }
 ];

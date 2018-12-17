@@ -1,10 +1,20 @@
 <div class="container">
-  <h1>Erstellen</h1>
-  <hr>
 
-<app-create-form
-  (create)='handleCreateEintrag($event)'
->
-</app-create-form>
+  <ng-container *ngIf="!eintragId && !parentId">
+    <app-create-form
+      (create)='handleCreateEintrag($event)'
+    >
+    </app-create-form>
+  </ng-container>
+
+
+  <ng-container *ngIf="eintragId && eintrag">
+    <app-update-eintrag-form>
+
+    </app-update-eintrag-form>
+  </ng-container>
+
+
+
 
 </div>

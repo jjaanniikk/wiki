@@ -3,20 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="76c881a3-b365-4410-be40-38d4b2896914" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/src/main/java/com/example/demo/repository/eintrag/Eintrag.java" beforeDir="false" afterPath="$PROJECT_DIR$/repository/src/main/java/com/example/demo/repository/eintrag/Eintrag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/src/main/java/com/example/demo/repository/eintrag/EintragRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/repository/src/main/java/com/example/demo/repository/eintrag/EintragRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/src/main/java/com/example/demo/service/EintragService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/example/demo/service/EintragService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/example/demo/service/dto/EintragDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/example/demo/service/dto/EintragDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-ui/src/app/components/create-form/create-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-ui/src/app/components/create-form/create-form.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-ui/src/app/components/create-form/create-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web-ui/src/app/components/create-form/create-form.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-ui/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web-ui/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-ui/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web-ui/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-ui/src/app/components/create-form/create-form.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/web-ui/src/app/components/createEintrag-form/create-form.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-ui/src/app/components/create-form/create-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-ui/src/app/components/createEintrag-form/create-form.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-ui/src/app/components/create-form/create-form.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web-ui/src/app/components/createEintrag-form/create-form.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-ui/src/app/components/create-form/create-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web-ui/src/app/components/createEintrag-form/create-form.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-ui/src/app/components/show-eintrag-list/show-eintrag-list.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/web-ui/src/app/components/show-eintrag-list/show-eintrag-list.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-ui/src/app/components/show-eintrag-list/show-eintrag-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-ui/src/app/components/show-eintrag-list/show-eintrag-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-ui/src/app/components/show-eintrag-list/show-eintrag-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web-ui/src/app/components/show-eintrag-list/show-eintrag-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-ui/src/app/components/show-eintrag/show-eintrag.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-ui/src/app/components/show-eintrag/show-eintrag.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-ui/src/app/components/show-eintrag/show-eintrag.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web-ui/src/app/components/show-eintrag/show-eintrag.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-ui/src/app/containers/create/create.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-ui/src/app/containers/create/create.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-ui/src/app/containers/create/create.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web-ui/src/app/containers/create/create.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-ui/src/app/containers/eintrag/eintrag.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-ui/src/app/containers/eintrag/eintrag.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-ui/src/app/containers/eintrag/eintrag.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web-ui/src/app/containers/eintrag/eintrag.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-ui/src/app/containers/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-ui/src/app/containers/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-ui/src/app/containers/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web-ui/src/app/containers/home/home.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-ui/src/app/services/eintrag.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web-ui/src/app/services/eintrag.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-ui/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web-ui/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/main/java/com/example/demo/web/controller/EintragRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/example/demo/web/controller/EintragRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/web/target/" />
@@ -86,22 +92,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-ui/src/app/containers/home/home.component.html">
+      <file leaf-file-name="create-form.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-ui/src/app/components/createEintrag-form/create-form.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Eintrag.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/repository/src/main/java/com/example/demo/repository/eintrag/Eintrag.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="285">
+              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#70#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,8 +107,56 @@
       <file leaf-file-name="create.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-ui/src/app/containers/create/create.component.html">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show-eintrag-list.component.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-ui/src/app/components/show-eintrag-list/show-eintrag-list.component.css">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create-form.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-ui/src/app/components/createEintrag-form/create-form.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="27" selection-start-column="27" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eintrag.service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-ui/src/app/services/eintrag.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show-eintrag.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-ui/src/app/components/show-eintrag/show-eintrag.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app-routing.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-ui/src/app/app-routing.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#0#53#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,8 +164,8 @@
       <file leaf-file-name="create.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web-ui/src/app/containers/create/create.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+            <state relative-caret-position="140">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="18" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -128,59 +173,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EintragDto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/example/demo/service/dto/EintragDto.java">
+      <file leaf-file-name="show-eintrag-list.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-ui/src/app/components/show-eintrag-list/show-eintrag-list.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="225">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EintragService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/example/demo/service/EintragService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EintragRestController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/example/demo/web/controller/EintragRestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="eintrag" pinned="false" current-in-tab="false">
-        <entry file="das://0689862e-d690-40a8-9741-952094bef124/database/wiki/schema/public/table/eintrag">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/resources/application.properties">
+      <file leaf-file-name="navigation.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-ui/src/app/components/navigation/navigation.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="eintrag" pinned="false" current-in-tab="false">
-        <entry file="das://0689862e-d690-40a8-9741-952094bef124/database/wiki/schema/public/table/eintrag">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -200,6 +206,7 @@
     <findStrings>
       <find>/api/wik</find>
       <find>eint</find>
+      <find>/eintraege</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -234,25 +241,32 @@
         <option value="$PROJECT_DIR$/web-ui/src/app/navigation/navigation.component.html" />
         <option value="$PROJECT_DIR$/web-ui/src/app/containers/create/create.component.css" />
         <option value="$PROJECT_DIR$/web-ui/src/styles.css" />
-        <option value="$PROJECT_DIR$/web-ui/src/app/app-routing.module.ts" />
-        <option value="$PROJECT_DIR$/web-ui/src/app/containers/eintrag/eintrag.component.html" />
         <option value="$PROJECT_DIR$/web-ui/src/app/containers/sub-eintrag/sub-eintrag.component.html" />
         <option value="$PROJECT_DIR$/repository/src/main/java/com/example/demo/repository/kommentar/Kommentar.java" />
         <option value="$PROJECT_DIR$/repository/src/main/java/com/example/demo/repository/kommentar/KommentarRepository.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/example/demo/service/dto/KommentarDto.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/example/demo/service/KommentarService.java" />
-        <option value="$PROJECT_DIR$/web-ui/src/app/services/eintrag.service.ts" />
-        <option value="$PROJECT_DIR$/web-ui/src/app/containers/create/create.component.html" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/example/demo/service/EintragService.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/example/demo/web/controller/EintragRestController.java" />
         <option value="$PROJECT_DIR$/repository/src/main/java/com/example/demo/repository/eintrag/EintragRepository.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/example/demo/service/dto/EintragDto.java" />
         <option value="$PROJECT_DIR$/web-ui/src/app/components/create-form/create-form.component.ts" />
-        <option value="$PROJECT_DIR$/web-ui/src/app/components/create-form/create-form.component.html" />
         <option value="$PROJECT_DIR$/repository/src/main/java/com/example/demo/repository/eintrag/Eintrag.java" />
         <option value="$PROJECT_DIR$/web/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/web-ui/src/app/containers/home/home.component.html" />
+        <option value="$PROJECT_DIR$/web-ui/src/app/components/show-eintrag-list/show-eintrag-list.component.ts" />
+        <option value="$PROJECT_DIR$/web-ui/src/app/containers/home/home.component.ts" />
+        <option value="$PROJECT_DIR$/web-ui/src/app/containers/eintrag/eintrag.component.html" />
+        <option value="$PROJECT_DIR$/web-ui/src/app/components/show-eintrag/show-eintrag.component.ts" />
+        <option value="$PROJECT_DIR$/web-ui/src/app/containers/eintrag/eintrag.component.ts" />
+        <option value="$PROJECT_DIR$/web-ui/src/app/services/eintrag.service.ts" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/example/demo/service/EintragService.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/example/demo/web/controller/EintragRestController.java" />
+        <option value="$PROJECT_DIR$/web-ui/src/app/components/show-eintrag-list/show-eintrag-list.component.html" />
+        <option value="$PROJECT_DIR$/web-ui/src/app/components/show-eintrag-list/show-eintrag-list.component.css" />
+        <option value="$PROJECT_DIR$/web-ui/src/app/components/show-eintrag/show-eintrag.component.html" />
+        <option value="$PROJECT_DIR$/web-ui/src/app/components/create-form/create-form.component.html" />
+        <option value="$PROJECT_DIR$/web-ui/src/app/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/web-ui/src/app/containers/create/create.component.ts" />
+        <option value="$PROJECT_DIR$/web-ui/src/app/containers/create/create.component.html" />
       </list>
     </option>
   </component>
@@ -287,10 +301,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="3356" />
-    <option name="y" value="199" />
+    <option name="x" value="3213" />
+    <option name="y" value="705" />
     <option name="width" value="1657" />
-    <option name="height" value="833" />
+    <option name="height" value="662" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -601,7 +615,43 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="create-form" type="462c0819:PsiDirectoryNode" />
+              <item name="createEintrag-form" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wiki" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wiki" type="462c0819:PsiDirectoryNode" />
+              <item name="web-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="navigation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wiki" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wiki" type="462c0819:PsiDirectoryNode" />
+              <item name="web-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="show-eintrag" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wiki" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wiki" type="462c0819:PsiDirectoryNode" />
+              <item name="web-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="show-eintrag-list" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wiki" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wiki" type="462c0819:PsiDirectoryNode" />
+              <item name="web-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="update-eintrag-form" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wiki" type="b2602c69:ProjectViewProjectNode" />
@@ -619,15 +669,6 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
               <item name="create" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wiki" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wiki" type="462c0819:PsiDirectoryNode" />
-              <item name="web-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wiki" type="b2602c69:ProjectViewProjectNode" />
@@ -787,12 +828,12 @@
       <workItem from="1544775981300" duration="7354000" />
       <workItem from="1544783372247" duration="10448000" />
       <workItem from="1545030214277" duration="264000" />
-      <workItem from="1545030529186" duration="11435000" />
+      <workItem from="1545030529186" duration="24895000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49983000" />
+    <option name="totallyTimeSpent" value="63443000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -829,8 +870,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32940018" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4355949" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3539823" />
-      <window_info anchor="bottom" id="Database Console" order="9" visible="true" weight="0.32940018" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3539823" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19811843" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info id="Web" order="3" side_tool="true" />
@@ -839,6 +879,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="9" weight="0.32940018" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -896,56 +937,10 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/example/demo/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repository/src/main/java/com/example/demo/repository/commons/test.java" />
-    <entry file="file://$PROJECT_DIR$/repository/src/main/java/com/example/demo/repository/commons/IdGenerator.java" />
-    <entry file="file://$PROJECT_DIR$/repository/src/main/java/com/example/demo/repository/commons/IdGen.java" />
-    <entry file="file://$PROJECT_DIR$/repository/src/main/java/com/example/demo/repository/eintrag/EintragId.java" />
     <entry file="file://$PROJECT_DIR$/service/src/main/java/com/example/demo/service/EintragRepository.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/example/repository/0.0.1-SNAPSHOT/repository-0.0.1-SNAPSHOT.jar!/com/example/demo/repository/eintrag/EintragRepository.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -968,20 +963,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/src/app/components/navigation/navigation.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-ui/src/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -989,31 +970,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/src/app/containers/eintrag/eintrag.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/src/app/app-routing.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-ui/src/app/containers/sub-eintrag/sub-eintrag.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/src/app/containers/home/home.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="27" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1110,13 +1070,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/src/app/services/eintrag.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/Object.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1145,71 +1098,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/src/app/components/create-form/create-form.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/src/app/components/create-form/create-form.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/java/com/example/demo/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repository/src/main/java/com/example/demo/repository/eintrag/EintragRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repository/src/main/java/com/example/demo/repository/kommentar/KommentarRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="68" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/example/demo/service/EintragService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/example/demo/web/controller/EintragRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/example/demo/service/dto/EintragDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1244,24 +1136,199 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/src/app/containers/create/create.component.html">
+    <entry file="file://$PROJECT_DIR$/repository/src/main/java/com/example/demo/repository/kommentar/KommentarRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web-ui/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-ui/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-ui/src/app/components/show-eintrag/show-eintrag.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/web-ui/src/app/containers/home/home.component.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-ui/src/app/containers/home/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-ui/src/app/containers/eintrag/eintrag.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-ui/src/app/components/show-eintrag/show-eintrag.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-ui/src/app/components/show-eintrag/show-eintrag.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-ui/src/app/containers/eintrag/eintrag.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-ui/src/app/containers/eintrag/eintrag.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repository/src/main/java/com/example/demo/repository/eintrag/EintragRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/example/demo/service/dto/EintragDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/example/demo/service/EintragService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" column="96" lean-forward="true" selection-start-line="29" selection-start-column="96" selection-end-line="29" selection-end-column="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/example/demo/web/controller/EintragRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-ui/src/app/components/show-eintrag-list/show-eintrag-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-ui/src/app/components/show-eintrag-list/show-eintrag-list.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-ui/src/app/components/show-eintrag/show-eintrag.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-ui/src/app/components/navigation/navigation.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-ui/src/app/services/eintrag.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-ui/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-ui/src/app/components/createEintrag-form/create-form.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-ui/src/app/components/show-eintrag-list/show-eintrag-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-ui/src/app/components/createEintrag-form/create-form.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-ui/src/app/containers/create/create.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-ui/src/app/containers/create/create.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        <state relative-caret-position="140">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="18" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>

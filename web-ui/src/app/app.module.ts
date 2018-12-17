@@ -12,11 +12,12 @@ import {EintragService} from "./services/eintrag.service";
 import { EintragComponent } from './containers/eintrag/eintrag.component';
 import { SubEintragComponent } from './containers/sub-eintrag/sub-eintrag.component';
 import { CreateComponent } from './containers/create/create.component';
-import { CreateFormComponent } from './components/create-form/create-form.component';
+import { CreateFormComponent } from './components/createEintrag-form/create-form.component';
 import { ShowEintragComponent } from './components/show-eintrag/show-eintrag.component';
 import { ShowEintragListComponent } from './components/show-eintrag-list/show-eintrag-list.component';
 import { ShowKommentarComponent } from './components/show-kommentar/show-kommentar.component';
 import { KommentarFormComponent } from './components/kommentar-form/kommentar-form.component';
+import { UpdateEintragFormComponent } from './components/update-eintrag-form/update-eintrag-form.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { KommentarFormComponent } from './components/kommentar-form/kommentar-fo
     ShowEintragComponent,
     ShowEintragListComponent,
     ShowKommentarComponent,
-    KommentarFormComponent
+    KommentarFormComponent,
+    UpdateEintragFormComponent
   ],
   imports: [
     CommonModule,

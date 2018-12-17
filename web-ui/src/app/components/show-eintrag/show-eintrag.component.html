@@ -1,3 +1,10 @@
-<p>
-  show-eintrag works!
-</p>
+<ng-container *ngIf="eintrag">
+  <h1> {{eintrag.titel}} </h1>
+  <hr>
+  <div>
+  <p class="text-justify">
+    {{eintrag.text}}
+  </p>
+  </div>
+
+</ng-container>

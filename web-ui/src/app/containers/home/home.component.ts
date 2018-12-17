@@ -1,8 +1,7 @@
-import { Component, OnInit } from '@angular/core';
-import {ActivatedRoute, Router} from "@angular/router";
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 import {EintragService} from "../../services/eintrag.service";
+import {ActivatedRoute, Router} from "@angular/router";
 import {Eintrag} from "../../services/eintrag";
-
 
 @Component({
   selector: 'app-home',
@@ -18,7 +17,9 @@ export class HomeComponent implements OnInit {
     private eintragService: EintragService,
     private router: Router,
     private route: ActivatedRoute
-  ) { }
+  ) {
+    this.route.params.subscribe(params => (this.id = params["id"]));
+  }
 
   ngOnInit() {
     this.eintragService.getEintraege().subscribe(result => {
@@ -26,6 +27,10 @@ export class HomeComponent implements OnInit {
     }, error => {
       console.log('Mein Fehler', error);
     });
+  }
+
+  handleViewEintrag($event) {
+    this.router.navigate([$event.id]);
   }
 
 }
