@@ -33,4 +33,12 @@ export class HomeComponent implements OnInit {
     this.router.navigate([$event.id], {relativeTo: this.route});
   }
 
+  handleRemoveEintrag($event) {
+    this.eintragService.deleteEintrag($event).subscribe(result => {
+      this.eintragService.getEintraege().subscribe(result => {
+        this.eintraege = result;
+      });
+    });
+  }
+
 }

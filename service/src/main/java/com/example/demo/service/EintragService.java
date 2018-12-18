@@ -48,4 +48,7 @@ public class EintragService {
                        eintragDto.getParent_id()));
     }
 
+    public void deleteEintragById(long id) {
+        this.eintragRepository.deleteById(id);
+    }
 }

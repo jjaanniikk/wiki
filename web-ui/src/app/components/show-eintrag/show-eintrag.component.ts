@@ -11,7 +11,7 @@ import {FormControl, FormGroup} from "@angular/forms";
 export class ShowEintragComponent implements OnInit {
   @Input() eintrag: Eintrag;
   @Output() onSave: EventEmitter<Eintrag> = new EventEmitter<Eintrag>();
-  
+
 
   editForm: FormGroup;
 

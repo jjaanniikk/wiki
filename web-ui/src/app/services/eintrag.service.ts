@@ -26,6 +26,10 @@ export class EintragService {
     return this.http.put<Eintrag>(API_URL + '/' + eintrag.id, eintrag);
   }
 
+  public deleteEintrag(eintrag: Eintrag): Observable<void> {
+    return this.http.delete<void>(API_URL + '/' + eintrag.id);
+  }
+
 
 
 

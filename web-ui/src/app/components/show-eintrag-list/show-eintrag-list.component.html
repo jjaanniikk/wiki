@@ -2,6 +2,6 @@
   <ul class="list-group">
     <li class="list-group-item" >
       <span>  <button id="list_b" class="btn btn-outline-secondary button button--remove" (click)=onViewEintrag(eintrag)> {{eintrag.titel}} </button> </span>
-     <span id="delete"> <button type="button" class="btn btn-secondary btn-sm">Delete</button> </span>
+     <span id="delete"> <button type="button" class="btn btn-secondary btn-sm" (click)=onRemoveEintrag(eintrag)>Delete</button> </span>
     </li>
   </ul>

@@ -12,6 +12,7 @@ export class ShowEintragListComponent implements OnInit {
 
   @Input() eintrag: Eintrag;
   @Output() view: EventEmitter<Eintrag> = new EventEmitter<Eintrag>();
+  @Output() remove: EventEmitter<Eintrag> = new EventEmitter<Eintrag>();
 
   private id: number;
 
@@ -27,6 +28,10 @@ export class ShowEintragListComponent implements OnInit {
 
   onViewEintrag(eintrag: Eintrag) {
     this.view.emit(eintrag);
+  }
+
+  onRemoveEintrag(eintrag: Eintrag) {
+    this.remove.emit(eintrag);
   }
 
 }

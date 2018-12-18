@@ -34,5 +34,9 @@ public class EintragRestController {
     }
 
     @PutMapping("/{id}")
-    public void updatePassenger(@RequestBody EintragDto eintragDto) {  this.eintragService.updateEintrag(eintragDto); }
+    public void updateEintrag(@RequestBody EintragDto eintragDto) {  this.eintragService.updateEintrag(eintragDto); }
+
+    @DeleteMapping("/{id}")
+    public void deleteEintragById(@PathVariable long id) { this.eintragService.deleteEintragById(id); }
+
 }

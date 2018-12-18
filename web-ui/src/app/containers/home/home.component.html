@@ -18,7 +18,8 @@
   <ng-container *ngFor="let eintrag of eintraege">
     <app-show-eintrag-list
       [eintrag]="eintrag"
-      (view)="handleViewEintrag($event)">
+      (view)="handleViewEintrag($event)"
+      (remove)="handleRemoveEintrag($event)">
     </app-show-eintrag-list>
   </ng-container>
 
