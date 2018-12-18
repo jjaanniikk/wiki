@@ -13,6 +13,8 @@
 <ng-container *ngFor="let eintrag of eintraege" class="post">
   <ul class="list-group">
     <li class="list-group-item" >
-      <span>  <button id="list_b" class="btn btn-outline-secondary button button--remove" (click)="onViewSubEintrag(eintrag)"> {{eintrag.titel}} </button> </span></li>
+      <span>  <button id="list_b" class="btn btn-outline-secondary button button--remove" (click)="onViewSubEintrag(eintrag)"> {{eintrag.titel}} </button> </span>
+      <span id="delete"> <button type="button" class="btn btn-secondary btn-sm" (click)=onRemoveSubEintrag(eintrag)>Delete</button> </span>
+    </li>
   </ul>
 </ng-container>

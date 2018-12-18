@@ -11,6 +11,7 @@ export class ShowSubeintragListComponent implements OnInit {
 
   @Input() eintraege: Array<Eintrag>;
   @Output() viewSubEintrag = new EventEmitter<number>();
+  @Output() removeSub: EventEmitter<Eintrag> = new EventEmitter<Eintrag>();
 
   private id: number;
 
@@ -27,6 +28,10 @@ export class ShowSubeintragListComponent implements OnInit {
   onViewSubEintrag($event) {
     this.viewSubEintrag.emit($event.id)
 
+  }
+
+  onRemoveSubEintrag(eintrag: Eintrag) {
+    this.removeSub.emit(eintrag);
   }
 
 }
