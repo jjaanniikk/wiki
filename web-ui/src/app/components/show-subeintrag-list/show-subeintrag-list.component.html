@@ -1,0 +1,15 @@
+<br>
+<br>
+<h4>Sub-Einträge</h4>
+<hr>
+
+<ng-container *ngIf="eintraege?.length == 0">
+  <div class="alert alert-dark" role="alert">
+    <h4 class="alert-heading">Entschuldigen Sie</h4>
+    <p>Aktuell ist kein Subeintrag vorhanden</p>
+  </div>
+</ng-container>
+
+<ng-container *ngFor="let eintrag of eintraege" class="post">
+  <p>{{eintrag.titel}}</p>
+</ng-container>
