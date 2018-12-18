@@ -1,29 +1,25 @@
-<router-outlet></router-outlet>
-
-
 <div class="container">
 
   <h1>Wiki</h1>
 
-  <button class="btn btn-outline-secondary button button--remove"  routerLink="/create" routerLinkActive="active">Neuer Eintrag</button>
+  <button class="btn btn-outline-secondary button button--remove" routerLink="/create" routerLinkActive="active">Neuer Eintrag
+  </button>
 
   <br>
   <br>
 
-
-  <!--Nachricht wenn kein Passenger in DB-->
-  <div *ngIf="eintraege?.length == 0">
+  <ng-container *ngIf="eintraege?.length == 0">
     <div class="alert alert-dark" role="alert">
       <h4 class="alert-heading">Entschuldigen Sie</h4>
       <p>Aktuell ist kein Eintrag vorhanden</p>
     </div>
-  </div>
+  </ng-container>
 
   <ng-container *ngFor="let eintrag of eintraege">
     <app-show-eintrag-list
-    [eintrag]="eintrag"
-    (view)='handleViewEintrag($event)'
-    ></app-show-eintrag-list>
+      [eintrag]="eintrag"
+      (view)="handleViewEintrag($event)">
+    </app-show-eintrag-list>
   </ng-container>
 
 

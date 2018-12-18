@@ -6,12 +6,12 @@ import {EintragComponent} from "./containers/eintrag/eintrag.component";
 import {SubEintragComponent} from "./containers/sub-eintrag/sub-eintrag.component";
 
 const appRoutes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: 'eintraege', component: HomeComponent },
   { path: 'create', component: CreateComponent },
-  { path: ':eintragId/edit', component: CreateComponent },
-  { path: ':eintragId', component: EintragComponent },
+  { path: 'eintraege/:eintragId', component: EintragComponent },
+
   { path: 'SubEintragmussGeandertWerden', component: SubEintragComponent },
-  { path: '**', redirectTo: '/', pathMatch: 'full' }
+  { path: '**', redirectTo: '/eintraege', pathMatch: 'full' }
 ];
 
 @NgModule({

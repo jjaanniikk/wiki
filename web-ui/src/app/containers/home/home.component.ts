@@ -30,7 +30,7 @@ export class HomeComponent implements OnInit {
   }
 
   handleViewEintrag($event) {
-    this.router.navigate([$event.id]);
+    this.router.navigate([$event.id], {relativeTo: this.route});
   }
 
 }

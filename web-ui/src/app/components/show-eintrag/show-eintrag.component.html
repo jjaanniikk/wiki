@@ -1,10 +1,31 @@
-<ng-container *ngIf="eintrag">
-  <h1> {{eintrag.titel}} </h1>
-  <hr>
-  <div>
-  <p class="text-justify">
-    {{eintrag.text}}
-  </p>
-  </div>
+<!--<ng-container *ngIf="eintrag">-->
+  <!--<h1> {{eintrag.titel}} </h1>-->
+  <!--<hr>-->
+  <!--<div>-->
+  <!--<p class="text-justify">-->
+    <!--{{eintrag.text}}-->
+  <!--</p>-->
+  <!--</div>-->
+<!--</ng-container>-->
 
-</ng-container>
+<h1> {{eintrag.titel}} </h1>
+<hr>
+<form [formGroup]="editForm" (ngSubmit)="doSaveEintrag(eintrag)">
+  <div class="form-group input-group mb-3">
+    <input type="text" id="eintrag_titel"
+           value="titel"
+           formControlName="titel"
+           class="form-control"
+           aria-label="Sizing example input"
+           aria-describedby="inputGroup-sizing-default">
+  </div>
+  <br>
+  <div class="form-group input-group mb-3">
+    <textarea class="form-control"
+              id="eintrag_text"
+              rows="7"
+              formControlName="text"
+    ></textarea>
+  </div>
+  <button type="submit" class="btn btn-info">Save</button>
+</form>

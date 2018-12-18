@@ -15,12 +15,18 @@ export class EintragService {
   }
 
   public getEintragById(id: number): Observable<Eintrag> {
-    return this.http.get<Eintrag>(API_URL + id);
+    return this.http.get<Eintrag>(API_URL + "/" + id);
   }
 
   public createEintrag(eintrag: Eintrag): Observable<Eintrag> {
     return this.http.post<Eintrag>(API_URL, eintrag);
   }
+
+  public updateEintrag(eintrag: Eintrag): Observable<Eintrag> {
+    return this.http.put<Eintrag>(API_URL + '/' + eintrag.id, eintrag);
+  }
+
+
 
 
 

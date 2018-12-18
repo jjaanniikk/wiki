@@ -27,7 +27,6 @@ export class ShowEintragListComponent implements OnInit {
 
   onViewEintrag(eintrag: Eintrag) {
     this.view.emit(eintrag);
-    console.log(this.eintrag.id);
   }
 
 }

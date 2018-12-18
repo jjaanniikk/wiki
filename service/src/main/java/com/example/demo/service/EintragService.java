@@ -38,4 +38,14 @@ public class EintragService {
                         eintragDto.getText(),
                         eintragDto.getParent_id()));
     }
+
+    public void updateEintrag(EintragDto eintragDto) {
+       this.eintragRepository.save
+               (new Eintrag(
+                       eintragDto.getId(),
+                       eintragDto.getTitel(),
+                       eintragDto.getText(),
+                       eintragDto.getParent_id()));
+    }
+
 }

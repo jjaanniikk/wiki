@@ -1,11 +1,13 @@
 <div class="container">
 
+  <ng-container *ngIf="eintrag">
+    <app-show-eintrag
+      [eintrag]="eintrag"
+      (onSave)="doUpdate($event)">
+    </app-show-eintrag>
+  </ng-container>
 
-<app-show-eintrag
-  [eintrag]="eintrag"
-></app-show-eintrag>
-
-<app-show-kommentar></app-show-kommentar>
-<app-kommentar-form></app-kommentar-form>
+  <app-show-kommentar></app-show-kommentar>
+  <app-kommentar-form></app-kommentar-form>
 
 </div>

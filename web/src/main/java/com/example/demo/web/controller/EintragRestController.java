@@ -26,11 +26,13 @@ public class EintragRestController {
     @GetMapping("/{eintragId}")
     public Eintrag getEintragById(@PathVariable long eintragId){
         return this.eintragService.getTextById(eintragId);
-
     }
 
     @PostMapping
     public void createEintrag(@RequestBody EintragDto eintragDto) {
         this.eintragService.createEintrag(eintragDto);
     }
+
+    @PutMapping("/{id}")
+    public void updatePassenger(@RequestBody EintragDto eintragDto) {  this.eintragService.updateEintrag(eintragDto); }
 }

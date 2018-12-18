@@ -1,3 +1,29 @@
-<p>
-  update-eintrag-form works!
-</p>
+<h1>Eintrag Bearbeiten</h1>
+<hr>
+
+<form>
+  <div class="form-group input-group mb-3">
+    <div class="input-group-prepend">
+      <label class="input-group-text" for="eintrag_titel">Titel</label>
+    </div>
+    <input type="text" id="eintrag_titel"
+           placeholder="Title"
+           formControlName="titel"
+           class="form-control"
+           aria-label="Sizing example input"
+           aria-describedby="inputGroup-sizing-default">
+  </div>
+  <br>
+  <div class="form-group input-group mb-3">
+    <div class="input-group-prepend">
+      <label class="input-group-text" for="eintrag_text">Text</label>
+    </div>
+    <textarea class="form-control"
+              id="eintrag_text"
+              rows="7"
+              formControlName="text"
+    ></textarea>
+  </div>
+  <button type="submit" class="btn btn-info">Create</button>
+</form>
+
