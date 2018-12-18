@@ -1,0 +1,16 @@
+#list_b{
+  border: none;
+  color: black;
+  text-decoration: underline;
+}
+
+#list_b:hover{
+  border: none;
+  background-color: white;
+  color: black;
+  text-decoration: underline;
+}
+
+#delete{
+  float: right;
+}

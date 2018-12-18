@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 import {Eintrag} from "../../services/eintrag";
 import {ActivatedRoute} from "@angular/router";
 
@@ -10,6 +10,7 @@ import {ActivatedRoute} from "@angular/router";
 export class ShowSubeintragListComponent implements OnInit {
 
   @Input() eintraege: Array<Eintrag>;
+  @Output() viewSubEintrag = new EventEmitter<number>();
 
   private id: number;
 
@@ -23,6 +24,9 @@ export class ShowSubeintragListComponent implements OnInit {
 
   }
 
+  onViewSubEintrag($event) {
+    this.viewSubEintrag.emit($event.id)
 
+  }
 
 }

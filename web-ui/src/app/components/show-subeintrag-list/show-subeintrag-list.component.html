@@ -11,5 +11,8 @@
 </ng-container>
 
 <ng-container *ngFor="let eintrag of eintraege" class="post">
-  <p>{{eintrag.titel}}</p>
+  <ul class="list-group">
+    <li class="list-group-item" >
+      <span>  <button id="list_b" class="btn btn-outline-secondary button button--remove" (click)="onViewSubEintrag(eintrag)"> {{eintrag.titel}} </button> </span></li>
+  </ul>
 </ng-container>
