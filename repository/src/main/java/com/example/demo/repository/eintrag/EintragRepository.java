@@ -17,6 +17,4 @@ public interface EintragRepository extends JpaRepository<Eintrag, Integer> {
     /*get all sub-eintraege*/
     List<Eintrag> findByParentIdEquals(int parentId);
 
-/*    @Query("SELECT eintrag.id FROM Eintrag eintrag WHERE eintrag.parent_id = :parentId")
-    List<Integer> findSubTextIdsForParent(@Param("parent_id") Integer parent_id);*/
 }

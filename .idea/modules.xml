@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/repository/src/main/main.iml" filepath="$PROJECT_DIR$/repository/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/src/main/main1.iml" filepath="$PROJECT_DIR$/service/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/src/main/main2.iml" filepath="$PROJECT_DIR$/web/src/main/main2.iml" />
       <module fileurl="file://$PROJECT_DIR$/repository/repository.iml" filepath="$PROJECT_DIR$/repository/repository.iml" />
       <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
