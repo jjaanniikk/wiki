@@ -14,8 +14,13 @@ export class EintragService {
     return this.http.get<Array<Eintrag>>(API_URL);
   }
 
+  getSubEintraege(id: number): Observable<Array<Eintrag>> {
+    return this.http.get<Array<Eintrag>>(API_URL + 'getSubEintraege/' + id);
+
+  }
+
   public getEintragById(id: number): Observable<Eintrag> {
-    return this.http.get<Eintrag>(API_URL + "/" + id);
+    return this.http.get<Eintrag>(API_URL + id);
   }
 
   public createEintrag(eintrag: Eintrag): Observable<Eintrag> {
@@ -23,11 +28,11 @@ export class EintragService {
   }
 
   public updateEintrag(eintrag: Eintrag): Observable<Eintrag> {
-    return this.http.put<Eintrag>(API_URL + '/' + eintrag.id, eintrag);
+    return this.http.put<Eintrag>(API_URL + eintrag.id, eintrag);
   }
 
   public deleteEintrag(eintrag: Eintrag): Observable<void> {
-    return this.http.delete<void>(API_URL + '/' + eintrag.id);
+    return this.http.delete<void>(API_URL + eintrag.id);
   }
 
 

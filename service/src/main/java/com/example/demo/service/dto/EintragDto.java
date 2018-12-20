@@ -1,11 +1,10 @@
 package com.example.demo.service.dto;
 
-
 import com.example.demo.repository.eintrag.Eintrag;
 
 public class EintragDto {
 
-    private long id;
+    private Integer id;
 
     private String titel;
 
@@ -18,7 +17,7 @@ public class EintragDto {
         // For Libraries
     }
 
-    public EintragDto(Long id, String titel, String text, Integer parent_id){
+    public EintragDto(Integer id, String titel, String text, Integer parent_id){
 
         this.id = id;
         this.titel = titel;
@@ -26,11 +25,11 @@ public class EintragDto {
         this.parent_id = parent_id;
     }
 
-    public long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -66,7 +65,7 @@ public class EintragDto {
                 eintrag.getId(),
                 eintrag.getTitel(),
                 eintrag.getText(),
-                eintrag.getParent_id()
+                eintrag.getParentId()
         );
     }
 }

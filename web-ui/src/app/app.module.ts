@@ -18,6 +18,9 @@ import { ShowEintragListComponent } from './components/show-eintrag-list/show-ei
 import { ShowKommentarComponent } from './components/show-kommentar/show-kommentar.component';
 import { KommentarFormComponent } from './components/kommentar-form/kommentar-form.component';
 import { UpdateEintragFormComponent } from './components/update-eintrag-form/update-eintrag-form.component';
+import { ShowSubeintragListComponent } from './components/show-subeintrag-list/show-subeintrag-list.component';
+import { ShowSubeintragComponent } from './components/show-subeintrag/show-subeintrag.component';
+import { CreateSubComponent } from './containers/create-sub/create-sub.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +35,10 @@ import { UpdateEintragFormComponent } from './components/update-eintrag-form/upd
     ShowEintragListComponent,
     ShowKommentarComponent,
     KommentarFormComponent,
-    UpdateEintragFormComponent
+    UpdateEintragFormComponent,
+    ShowSubeintragListComponent,
+    ShowSubeintragComponent,
+    CreateSubComponent
   ],
   imports: [
     CommonModule,

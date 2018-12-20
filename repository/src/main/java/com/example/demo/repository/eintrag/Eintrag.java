@@ -7,13 +7,12 @@ import javax.validation.constraints.NotBlank;
 
 
 @Entity
-@Table(name = "eintrag")
 public class Eintrag {
 
     @Valid
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
-    private Long id;
+    private Integer id;
 
     @NotBlank
     private String titel;
@@ -21,24 +20,24 @@ public class Eintrag {
     @NotBlank
     private String text;
 
-    private Integer parent_id;
+    private Integer parentId;
 
     protected Eintrag() {
         //for frameworks
     }
 
-    public Eintrag(@Valid Long id, @NotBlank String titel, @NotBlank String text, Integer parent_id) {
+    public Eintrag(@Valid Integer id, @NotBlank String titel, @NotBlank String text, Integer parentId) {
         this.id = id;
         this.titel = titel;
         this.text = text;
-        this.parent_id = parent_id;
+        this.parentId = parentId;
     }
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -50,8 +49,8 @@ public class Eintrag {
         this.text = text;
     }
 
-    public void setParent_id(Integer parent_id) {
-        this.parent_id = parent_id;
+    public void setParentId(Integer parentId) {
+        this.parentId = parentId;
     }
 
     public String getTitel() { return titel; }
@@ -60,8 +59,8 @@ public class Eintrag {
         return text;
     }
 
-    public Integer getParent_id() {
-        return parent_id;
+    public Integer getParentId() {
+        return parentId;
     }
 
     //sinnvoler consolen output
@@ -71,7 +70,7 @@ public class Eintrag {
                 "id=" + id +
                 ", titel='" + titel + '\'' +
                 ", text=" + text +
-                ", parent_id=" + parent_id +
+                ", parentId=" + parentId +
                 '}';
     }
 }

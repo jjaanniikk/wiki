@@ -7,6 +7,14 @@
     </app-show-eintrag>
   </ng-container>
 
+
+  <app-show-subeintrag-list
+    [eintraege]="subEintraege"
+    (removeSub)="handleRemoveSubEintrag($event)"
+    (viewSubEintrag)="doViewSubEintrag($event)"
+  ></app-show-subeintrag-list>
+
+
   <app-show-kommentar></app-show-kommentar>
   <app-kommentar-form></app-kommentar-form>
 

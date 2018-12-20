@@ -20,23 +20,32 @@ public class EintragRestController {
 
     @GetMapping
     public List<EintragDto> getEintraege(){
-        return eintragService.getEintraege();
+        return this.eintragService.getEintraege();
+    }
+
+    @GetMapping("/getSubEintraege/{eintragId}")
+    public List<EintragDto> getSubEintraege(@PathVariable int eintragId) {
+        return this.eintragService.getSubEintraege(eintragId);
     }
 
     @GetMapping("/{eintragId}")
-    public Eintrag getEintragById(@PathVariable long eintragId){
-        return this.eintragService.getTextById(eintragId);
+    public Eintrag getEintragById(@PathVariable int eintragId){
+        return this.eintragService.getEintragById(eintragId);
     }
 
     @PostMapping
-    public void createEintrag(@RequestBody EintragDto eintragDto) {
+    public void createEintrag(@RequestBody EintragDto eintragDto){
         this.eintragService.createEintrag(eintragDto);
     }
 
     @PutMapping("/{id}")
-    public void updateEintrag(@RequestBody EintragDto eintragDto) {  this.eintragService.updateEintrag(eintragDto); }
+    public void updateEintrag(@RequestBody EintragDto eintragDto){
+        this.eintragService.updateEintrag(eintragDto);
+    }
 
     @DeleteMapping("/{id}")
-    public void deleteEintragById(@PathVariable long id) { this.eintragService.deleteEintragById(id); }
+    public void deleteEintragById(@PathVariable int id){
+        this.eintragService.deleteEintragById(id);
+    }
 
 }

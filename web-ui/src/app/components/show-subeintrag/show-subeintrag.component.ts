@@ -18,6 +18,7 @@ export class ShowSubeintragComponent implements OnInit {
 
   ngOnInit() {
 
+    console.log(this.eintrag);
 
 
     this.editForm = new FormGroup({

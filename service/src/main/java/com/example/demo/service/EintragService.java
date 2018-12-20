@@ -20,14 +20,20 @@ public class EintragService {
     }
 
     public List<EintragDto> getEintraege() {
-        return eintragRepository.findAll().stream()
+        return eintragRepository.findByParentIdIsNull().stream()
                 .map(EintragDto::toDto)
                 .collect(Collectors.toList());
     }
 
-    public Eintrag getTextById(long textId) {
-        return eintragRepository.findById(textId)
-                .orElseThrow(() -> new EintragNotFoundException("Entity not found! " + textId));
+    public List<EintragDto> getSubEintraege(int eintragId) {
+        return eintragRepository.findByParentIdEquals(eintragId).stream()
+                .map(EintragDto::toDto)
+                .collect(Collectors.toList());
+    }
+
+    public Eintrag getEintragById(int eintragId) {
+        return eintragRepository.findById(eintragId)
+                .orElseThrow(() -> new EintragNotFoundException("Entity not found! " + eintragId));
     }
 
     public void createEintrag(EintragDto eintragDto) {
@@ -40,15 +46,12 @@ public class EintragService {
     }
 
     public void updateEintrag(EintragDto eintragDto) {
-       this.eintragRepository.save
-               (new Eintrag(
-                       eintragDto.getId(),
-                       eintragDto.getTitel(),
-                       eintragDto.getText(),
-                       eintragDto.getParent_id()));
+       Eintrag eintrag = this.eintragRepository.findById(eintragDto.getId()).orElseThrow(() -> new EintragNotFoundException("Nicht gefunden"));
+       eintrag.setText(eintragDto.getText());
+       eintrag.setTitel(eintragDto.getTitel());
     }
 
-    public void deleteEintragById(long id) {
+    public void deleteEintragById(int id) {
         this.eintragRepository.deleteById(id);
     }
 }

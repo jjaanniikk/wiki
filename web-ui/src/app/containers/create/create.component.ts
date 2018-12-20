@@ -44,20 +44,6 @@ export class CreateComponent implements OnInit {
       this.router.navigate(['/']);
     });
     this.createSuccessful = false;
-
-
-
-
-    if (this.eintrag.id) {
-      //update
-
-    } else {
-      this.eintragService.createEintrag($event).subscribe(result => {
-        this.createSuccessful = true;
-        this.router.navigate(['/']);
-      });
-      this.createSuccessful = false;
-    }
   }
 
 }
