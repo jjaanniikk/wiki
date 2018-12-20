@@ -9,7 +9,7 @@ import {CreateSubComponent} from "./containers/create-sub/create-sub.component";
 const appRoutes: Routes = [
   { path: 'eintraege', component: HomeComponent },
   { path: 'create', component: CreateComponent },
-  { path: 'createsub', component: CreateSubComponent },
+  { path: 'eintraege/:eintragId/createsub', component: CreateSubComponent },
   { path: 'eintraege/:eintragId', component: EintragComponent },
   {path: 'eintraege/:eintragId/:subEintragId', component: SubEintragComponent},
 

@@ -23,7 +23,6 @@ export class CreateFormComponent implements OnInit {
   }
 
   doCreateEintrag() {
-    console.log(this.createForm.value);
     this.create.emit(this.createForm.value);
     this.createForm = new FormGroup({
       titel: new FormControl(''),

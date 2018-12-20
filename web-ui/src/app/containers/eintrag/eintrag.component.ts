@@ -58,7 +58,10 @@ export class EintragComponent implements OnInit {
 
   doViewSubEintrag($event) {
     this.router.navigate([$event], {relativeTo: this.route});
-    console.log($event + "wwwwwwwwww");
+  }
+
+  doCreateSubEintrag($event){
+    this.router.navigate(["createsub"], {relativeTo: this.route});
   }
 
   handleRemoveSubEintrag($event) {

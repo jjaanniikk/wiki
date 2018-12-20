@@ -10,19 +10,19 @@ public class EintragDto {
 
     private String text;
 
-    private Integer parent_id;
+    private Integer parentId;
 
 
     protected EintragDto() {
         // For Libraries
     }
 
-    public EintragDto(Integer id, String titel, String text, Integer parent_id){
+    public EintragDto(Integer id, String titel, String text, Integer parentId){
 
         this.id = id;
         this.titel = titel;
         this.text = text;
-        this.parent_id = parent_id;
+        this.parentId = parentId;
     }
 
     public Integer getId() {
@@ -41,8 +41,8 @@ public class EintragDto {
         this.text = text;
     }
 
-    public void setParent_id(Integer parent_id) {
-        this.parent_id = parent_id;
+    public void setParentId(Integer parentId) {
+        this.parentId = parentId;
     }
 
     public String getTitel() {
@@ -53,8 +53,8 @@ public class EintragDto {
         return text;
     }
 
-    public Integer getParent_id() {
-        return parent_id;
+    public Integer getParentId() {
+        return parentId;
     }
 
     public static EintragDto toDto(Eintrag eintrag) {

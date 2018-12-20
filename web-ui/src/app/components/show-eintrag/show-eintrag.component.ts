@@ -11,25 +11,28 @@ import {FormControl, FormGroup} from "@angular/forms";
 export class ShowEintragComponent implements OnInit {
   @Input() eintrag: Eintrag;
   @Output() onSave: EventEmitter<Eintrag> = new EventEmitter<Eintrag>();
-
+  @Output() createSub: EventEmitter<Eintrag> = new EventEmitter<Eintrag>();
 
   editForm: FormGroup;
 
   constructor() { }
 
   ngOnInit() {
-    console.log(this.eintrag.id);
 
     this.editForm = new FormGroup({
       id: new FormControl(this.eintrag.id),
       titel: new FormControl(this.eintrag.titel),
       text: new FormControl(this.eintrag.text),
-      parent_id: new FormControl(this.eintrag.parent_id),
+      parentId: new FormControl(this.eintrag.parentId),
     })
   }
 
   doSaveEintrag() {
     this.onSave.emit(this.editForm.value);
+  }
+
+  onCreateSubEintrag($event) {
+    this.createSub.emit($event.id)
   }
 
 }

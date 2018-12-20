@@ -3,7 +3,9 @@
   <ng-container *ngIf="eintrag">
     <app-show-eintrag
       [eintrag]="eintrag"
-      (onSave)="doUpdate($event)">
+      (onSave)="doUpdate($event)"
+      (createSub)="doCreateSubEintrag($event)"
+    >
     </app-show-eintrag>
   </ng-container>
 

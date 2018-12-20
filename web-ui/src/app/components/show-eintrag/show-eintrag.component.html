@@ -10,6 +10,9 @@
 
 <h1> {{eintrag.titel}} </h1>
 <hr>
+<button type="button" class="btn btn-secondary btn-sm" (click)="onCreateSubEintrag(eintrag)">Sub-Eintrag erstellen</button>
+<br>
+<br>
 <form [formGroup]="editForm" (ngSubmit)="doSaveEintrag(eintrag)">
   <div class="form-group input-group mb-3">
     <input type="text" id="eintrag_titel"
@@ -18,8 +21,6 @@
            class="form-control"
            aria-label="Sizing example input"
            aria-describedby="inputGroup-sizing-default">
-    <span id="buttons"> <button type="button" class="btn btn-secondary btn-sm" routerLink="/createsub" routerLinkActive="active">Sub-Eintrag erstellen</button>
-</span>
   </div>
   <br>
   <div class="form-group input-group mb-3">

@@ -42,7 +42,7 @@ public class EintragService {
                         eintragDto.getId(),
                         eintragDto.getTitel(),
                         eintragDto.getText(),
-                        eintragDto.getParent_id()));
+                        eintragDto.getParentId()));
     }
 
     public void updateEintrag(EintragDto eintragDto) {

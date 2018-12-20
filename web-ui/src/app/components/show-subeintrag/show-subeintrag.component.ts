@@ -25,7 +25,7 @@ export class ShowSubeintragComponent implements OnInit {
       id: new FormControl(this.eintrag.id),
       titel: new FormControl(this.eintrag.titel),
       text: new FormControl(this.eintrag.text),
-      parentId: new FormControl(this.eintrag.parent_id),
+      parentId: new FormControl(this.eintrag.parentId),
     })
   }
 

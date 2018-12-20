@@ -21,6 +21,7 @@ import { UpdateEintragFormComponent } from './components/update-eintrag-form/upd
 import { ShowSubeintragListComponent } from './components/show-subeintrag-list/show-subeintrag-list.component';
 import { ShowSubeintragComponent } from './components/show-subeintrag/show-subeintrag.component';
 import { CreateSubComponent } from './containers/create-sub/create-sub.component';
+import { CreateSubFormComponent } from './components/create-sub-form/create-sub-form.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { CreateSubComponent } from './containers/create-sub/create-sub.component
     UpdateEintragFormComponent,
     ShowSubeintragListComponent,
     ShowSubeintragComponent,
-    CreateSubComponent
+    CreateSubComponent,
+    CreateSubFormComponent
   ],
   imports: [
     CommonModule,
