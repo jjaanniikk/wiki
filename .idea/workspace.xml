@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76c881a3-b365-4410-be40-38d4b2896914" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/src/main/java/com/example/demo/repository/eintrag/EintragRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/repository/src/main/java/com/example/demo/repository/eintrag/EintragRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/src/main/java/com/example/demo/repository/kommentar/Kommentar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/src/main/java/com/example/demo/repository/kommentar/KommentarRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/example/demo/service/KommentarService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/example/demo/service/dto/KommentarDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-ui/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web-ui/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-ui/src/app/components/kommentar-form/kommentar-form.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-ui/src/app/components/kommentar-form/kommentar-form.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-ui/src/app/components/kommentar-form/kommentar-form.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-ui/src/app/components/kommentar-form/kommentar-form.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-ui/src/app/components/show-kommentar/show-kommentar.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-ui/src/app/components/show-kommentar/show-kommentar.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-ui/src/app/components/show-kommentar/show-kommentar.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-ui/src/app/components/show-kommentar/show-kommentar.component.ts" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/web/target/" />
@@ -77,97 +80,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Eintrag.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/repository/src/main/java/com/example/demo/repository/eintrag/Eintrag.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-ui/src/app/app.component.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="EintragDto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/example/demo/service/dto/EintragDto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
-              <folding>
-                <element signature="e#808#809#0" expanded="true" />
-                <element signature="e#850#851#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-ui/src/app/app.component.ts">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="EintragService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/example/demo/service/EintragService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="44" column="43" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-ui/src/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/example/demo/Application.java">
+      <file leaf-file-name="main.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-ui/src/main.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EintragRestController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/example/demo/web/controller/EintragRestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
-              <folding>
-                <element signature="e#628#629#0" expanded="true" />
-                <element signature="e#685#686#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="eintrag" pinned="false" current-in-tab="false">
-        <entry file="das://0689862e-d690-40a8-9741-952094bef124/database/wiki/schema/public/table/eintrag">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
-              <filtering enabled="true" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-            </state>
-          </provider>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-ui/src/styles.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web-ui/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-120">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SocketProcessorBase.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.32/tomcat-embed-core-8.5.32-sources.jar!/org/apache/tomcat/util/net/SocketProcessorBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="491">
+              <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -222,7 +173,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/service/pom.xml" />
-        <option value="$PROJECT_DIR$/web-ui/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/web-ui/src/app/home/home.component.html" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/docker/docker-compose.yml" />
@@ -272,6 +222,7 @@
         <option value="$PROJECT_DIR$/web-ui/src/app/components/show-eintrag/show-eintrag.component.ts" />
         <option value="$PROJECT_DIR$/repository/src/main/java/com/example/demo/repository/eintrag/EintragRepository.java" />
         <option value="$PROJECT_DIR$/web/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/web-ui/src/app/app.module.ts" />
       </list>
     </option>
   </component>
@@ -318,17 +269,18 @@
       <path value="$PROJECT_DIR$/web-ui/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="3380" />
-    <option name="y" value="34" />
-    <option name="width" value="1529" />
-    <option name="height" value="1164" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="3339" />
+    <option name="y" value="27" />
+    <option name="width" value="1657" />
+    <option name="height" value="1173" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -577,121 +529,12 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="wiki" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="create-sub-form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wiki" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="createEintrag-form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wiki" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="show-eintrag" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wiki" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="show-subeintrag" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wiki" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="show-subeintrag-list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wiki" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="update-eintrag-form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wiki" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wiki" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="create" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wiki" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="create-sub" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wiki" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="eintrag" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wiki" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wiki" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="sub-eintrag" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wiki" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wiki" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -837,12 +680,13 @@
       <workItem from="1545030214277" duration="264000" />
       <workItem from="1545030529186" duration="26087000" />
       <workItem from="1545116356950" duration="31830000" />
-      <workItem from="1545287799124" duration="20850000" />
+      <workItem from="1545287799124" duration="22620000" />
+      <workItem from="1545375943214" duration="9091000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117315000" />
+    <option name="totallyTimeSpent" value="128176000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -854,17 +698,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="3267" y="25" width="1853" height="1175" extended-state="6" />
+    <frame x="3339" y="27" width="1657" height="1173" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.18553646" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.20794538" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="TypeScript" order="8" />
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Docker" order="7" weight="0.32940018" />
-      <window_info anchor="right" id="Database" order="9" visible="true" weight="0.27780852" />
+      <window_info anchor="right" id="Database" order="9" weight="0.27780852" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -875,22 +719,22 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25270402" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25270402" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32940018" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.27531958" />
-      <window_info anchor="bottom" id="Database Console" order="9" weight="0.32546705" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26175982" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.27586207" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23029174" />
       <window_info anchor="right" id="Bean Validation" order="8" weight="0.32927504" />
       <window_info id="Web" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32940018" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="9" weight="0.32546705" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32940018" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="2" />
@@ -949,113 +793,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repository/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/example/repository/0.0.1-SNAPSHOT/repository-0.0.1-SNAPSHOT.jar!/com/example/demo/repository/eintrag/Eintrag.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/src/app/components/show-subeintrag-list/show-subeintrag-list.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/src/app/components/show-eintrag-list/show-eintrag-list.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/src/app/components/show-subeintrag-list/show-subeintrag-list.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/src/app/components/show-eintrag-list/show-eintrag-list.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="32" selection-start-line="32" selection-end-line="34" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/src/app/containers/home/home.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="35" selection-start-line="35" selection-end-line="41" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/src/app/containers/home/home.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="112" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="112" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/src/app/containers/sub-eintrag/sub-eintrag.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/src/app/containers/sub-eintrag/sub-eintrag.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="40" column="3" lean-forward="true" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/src/app/components/show-eintrag-list/show-eintrag-list.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="135" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="135" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/src/app/components/show-subeintrag-list/show-subeintrag-list.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="125" lean-forward="true" selection-start-line="15" selection-start-column="90" selection-end-line="15" selection-end-column="125" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/src/app/components/show-subeintrag/show-subeintrag.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-ui/src/app/components/show-subeintrag/show-subeintrag.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1072,16 +809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-ui/src/app/containers/eintrag/eintrag.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1093,15 +820,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="82" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="82" />
-          <folding>
-            <element signature="n#div#1;n#form#0;n#!!top" />
-            <element signature="n#textarea#0;n#div#1;n#form#0;n#!!top" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/src/app/components/update-eintrag-form/update-eintrag-form.component.css">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web-ui/src/app/components/show-subeintrag-list/show-subeintrag-list.component.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -1109,9 +829,6 @@
           <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/src/app/containers/create-sub/create-sub.component.css">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web-ui/src/app/containers/create/create.component.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -1174,13 +891,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/src/app/services/eintrag.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-ui/src/app/components/create-sub-form/create-sub-form.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1216,43 +926,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://0689862e-d690-40a8-9741-952094bef124/database/wiki/schema/public/sequence/eintrag_id_seq">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repository/src/main/java/com/example/demo/repository/kommentar/Kommentar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="74" column="44" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#775#776#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#833#834#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#894#895#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-            <element signature="e#999#1000#0" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1074#1075#0" expanded="true" />
-            <element signature="e#1106#1107#0" expanded="true" />
-            <element signature="e#1159#1160#0" expanded="true" />
-            <element signature="e#1203#1204#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/example/demo/service/KommentarService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/repository/src/main/java/com/example/demo/repository/kommentar/Kommentar.java" />
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/example/demo/service/KommentarService.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.32/tomcat-embed-core-8.5.32-sources.jar!/org/apache/tomcat/util/net/SocketProcessorBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -1264,27 +939,6 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repository/src/main/java/com/example/demo/repository/eintrag/Eintrag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/example/demo/service/dto/EintragDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1308,37 +962,260 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="116.2151702786378" y="87.94891640866877" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="116.0" y="88.0" />
           <SelectedNodes />
           <Categories>
             <Category>Key columns</Category>
             <Category>Columns</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">com</node>
+            <node x="" y="">groovyjarjarcommonscli.CommandLineParser</node>
+            <node x="" y="">groovyjarjarcommonscli.Option</node>
+            <node x="" y="">groovyjarjarcommonscli.ParseException</node>
+            <node x="" y="">sun</node>
+            <node x="" y="">groovyjarjarcommonscli.HelpFormatter</node>
+            <node x="" y="">groovyjarjarasm</node>
+            <node x="" y="">java</node>
+            <node x="" y="">javax</node>
+            <node x="" y="">groovyjarjarcommonscli.UnrecognizedOptionException</node>
+            <node x="" y="">groovyjarjarcommonscli.PosixParser</node>
+            <node x="" y="">groovyjarjarcommonscli.Options</node>
+            <node x="" y="">groovyjarjarcommonscli.CommandLine</node>
+            <node x="" y="">groovyjarjarcommonscli.OptionValidator</node>
+            <node x="" y="">groovyjarjarcommonscli.BasicParser</node>
+            <node x="" y="">javassist</node>
+            <node x="" y="">groovyjarjarcommonscli.PatternOptionBuilder</node>
+            <node x="" y="">groovyjarjarcommonscli.TypeHandler</node>
+            <node x="" y="">groovyjarjarcommonscli.GroovyInternalPosixParser</node>
+            <node x="" y="">org</node>
+            <node x="" y="">ch</node>
+            <node x="" y="">antlr</node>
+            <node x="" y="">aj</node>
+            <node x="" y="">groovyjarjarcommonscli.MissingOptionException</node>
+            <node x="" y="">META-INF</node>
+            <node x="" y="">jdk</node>
+            <node x="" y="">groovyjarjarcommonscli.HelpFormatter.OptionComparator</node>
+            <node x="" y="">groovy</node>
+            <node x="" y="">groovyjarjarcommonscli.OptionGroup</node>
+            <node x="" y="">groovyjarjarcommonscli.Parser</node>
+            <node x="" y="">groovyjarjarcommonscli.OptionBuilder</node>
+            <node x="" y="">groovyjarjarcommonscli.AlreadySelectedException</node>
+            <node x="" y="">groovyjarjarcommonscli.Util</node>
+            <node x="" y="">groovyjarjarcommonscli.GnuParser</node>
+            <node x="" y="">groovyjarjarantlr</node>
+            <node x="" y="">groovyjarjarcommonscli.MissingArgumentException</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="314.41269841269843" y="330.2301587301587" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repository/src/main/java/com/example/demo/repository/eintrag/Eintrag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/repository/src/main/java/com/example/demo/repository/eintrag/EintragRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/example/demo/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/example/demo/web/controller/EintragRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+        <state relative-caret-position="165">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding>
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#685#686#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com</OriginalElement>
+          <nodes>
+            <node x="" y="">com.oracle</node>
+            <node x="" y="">com.zaxxer</node>
+            <node x="" y="">com.sun</node>
+            <node x="" y="">com.example</node>
+            <node x="" y="">com.fasterxml</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="148.0" y="129.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/example/demo/service/dto/EintragDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.example.demo.service.dto">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.example.demo.service.dto</OriginalElement>
+          <nodes>
+            <node x="" y="">com.example.demo.service.dto.EintragDto</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="62.5" y="15.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.example.demo.web">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.example.demo.web</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="80.0" y="53.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.example.demo.repository.eintrag">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.example.demo.repository.eintrag</OriginalElement>
+          <nodes>
+            <node x="0.0" y="348.0">com.example.demo.repository.eintrag.EintragRepository</node>
+            <node x="2.5" y="0.0">com.example.demo.repository.eintrag.Eintrag</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.example.demo.repository.eintrag.EintragRepository" target="com.example.demo.repository.eintrag.Eintrag">
+              <point x="0.0" y="-39.5" />
+              <point x="0.0" y="149.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-139.0" y="112.0" />
+          <SelectedNodes>
+            <node>com.example.demo.repository.eintrag.Eintrag</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram//home/janik/Dokumente/projects/wiki/web-ui/src/app">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/web-ui/src/app</OriginalElement>
+          <nodes>
+            <node x="" y="">$PROJECT_DIR$/web-ui/node_modules/rxjs/internal/Observable.d.ts#Observable#313;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/app-routing.module.ts#AppRoutingModule#885;/home/janik/Dokumente/projects/wiki/web-ui/src/app/app-routing.module.ts#CreateComponent#166;/home/janik/Dokumente/projects/wiki/web-ui/src/app/app-routing.module.ts#CreateSubComponent#393;/home/janik/Dokumente/projects/wiki/web-ui/src/app/app-routing.module.ts#EintragComponent#236;/home/janik/Dokumente/projects/wiki/web-ui/src/app/app-routing.module.ts#HomeComponent#62;/home/janik/Dokumente/projects/wiki/web-ui/src/app/app-routing.module.ts#NgModule#126;/home/janik/Dokumente/projects/wiki/web-ui/src/app/app-routing.module.ts#RouterModule#8;/home/janik/Dokumente/projects/wiki/web-ui/src/app/app-routing.module.ts#Routes#22;/home/janik/Dokumente/projects/wiki/web-ui/src/app/app-routing.module.ts#SubEintragComponent#309;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/app.component.spec.ts#AppComponent#65;/home/janik/Dokumente/projects/wiki/web-ui/src/app/app.component.spec.ts#TestBed#9;/home/janik/Dokumente/projects/wiki/web-ui/src/app/app.component.spec.ts#async#18;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/app.component.ts#AppComponent#44;/home/janik/Dokumente/projects/wiki/web-ui/src/app/app.component.ts#Component#9;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/app.module.ts#AppComponent#111;/home/janik/Dokumente/projects/wiki/web-ui/src/app/app.module.ts#AppRoutingModule#474;/home/janik/Dokumente/projects/wiki/web-ui/src/app/app.module.ts#BrowserModule#9;/home/janik/Dokumente/projects/wiki/web-ui/src/app/app.module.ts#CommonModule#224;/home/janik/Dokumente/projects/wiki/web-ui/src/app/app.module.ts#CreateComponent#750;/home/janik/Dokumente/projects/wiki/web-ui/src/app/app.module.ts#CreateFormComponent#822;/home/janik/Dokumente/projects/wiki/web-ui/src/app/app.module.ts#CreateSubComponent#1616;/home/janik/Dokumente/projects/wiki/web-ui/src/app/app.module.ts#CreateSubFormComponent#1699;/home/janik/Dokumente/projects/wiki/web-ui/src/app/app.module.ts#EintragComponent#589;/home/janik/Dokumente/projects/wiki/web-ui/src/app/app.module.ts#EintragService#529;/home/janik/Dokumente/projects/wiki/web-ui/src/app/app.module.ts#FormsModule#325;/home/janik/Dokumente/projects/wiki/web-ui/src/app/app.module.ts#HomeComponent#159;/home/janik/Dokumente/projects/wiki/web-ui/src/app/app.module.ts#HttpClientModule#270;/home/janik/Dokumente/projects/wiki/web-ui/src/app/app.module.ts#KommentarFormComponent#1202;/home/janik/Dokumente/projects/wiki/web-ui/src/app/app.module.ts#NavigationComponent#391;/home/janik/Dokumente/projects/wiki/web-ui/src/app/app.module.ts#NgModule#68;/home/janik/Dokumente/projects/wiki/web-ui/src/app/app.module.ts#ReactiveFormsModule#338;/home/janik/Dokumente/projects/wiki/web-ui/src/app/app.module.ts#ShowEintragComponent#915;/home/janik/Dokumente/projects/wiki/web-ui/src/app/app.module.ts#ShowEintragListComponent#1004;/home/janik/Dokumente/projects/wiki/web-ui/src/app/app.module.ts#ShowKommentarComponent#1107;/home/janik/Dokumente/projects/wiki/web-ui/src/app/app.module.ts#ShowSubeintragComponent#1518;/home/janik/Dokumente/projects/wiki/web-ui/src/app/app.module.ts#ShowSubeintragListComponent#1406;/home/janik/Dokumente/projects/wiki/web-ui/src/app/app.module.ts#SubEintragComponent#664;/home/janik/Dokumente/projects/wiki/web-ui/src/app/app.module.ts#UpdateEintragFormComponent#1297;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/node_modules/@angular/core/testing/src/async.d.ts#async#203;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/node_modules/@angular/platform-browser/src/browser.d.ts#BrowserModule#1044;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/node_modules/@angular/common/http/src/client.d.ts#HttpClient#520;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/node_modules/@angular/common/src/common_module.d.ts#CommonModule#203;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/node_modules/@angular/core/testing/src/component_fixture.d.ts#ComponentFixture#302;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/node_modules/@angular/router/src/config.d.ts#Routes#7777;</node>
+            <node x="" y="">Component;Injectable;Input;NgModule;Output;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/components/createEintrag-form/create-form.component.spec.ts#ComponentFixture#16;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/createEintrag-form/create-form.component.spec.ts#CreateFormComponent#84;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/createEintrag-form/create-form.component.spec.ts#TestBed#34;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/createEintrag-form/create-form.component.spec.ts#async#9;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/components/createEintrag-form/create-form.component.ts#Component#8;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/createEintrag-form/create-form.component.ts#CreateFormComponent#175;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/createEintrag-form/create-form.component.ts#Eintrag#134;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/createEintrag-form/create-form.component.ts#EventEmitter#19;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/createEintrag-form/create-form.component.ts#FormControl#79;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/createEintrag-form/create-form.component.ts#FormGroup#92;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/createEintrag-form/create-form.component.ts#OnInit#33;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/createEintrag-form/create-form.component.ts#Output#41;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/components/create-sub-form/create-sub-form.component.spec.ts#ComponentFixture#16;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/create-sub-form/create-sub-form.component.spec.ts#CreateSubFormComponent#84;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/create-sub-form/create-sub-form.component.spec.ts#TestBed#34;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/create-sub-form/create-sub-form.component.spec.ts#async#9;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/components/create-sub-form/create-sub-form.component.ts#ActivatedRoute#189;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/create-sub-form/create-sub-form.component.ts#Component#8;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/create-sub-form/create-sub-form.component.ts#CreateSubFormComponent#230;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/create-sub-form/create-sub-form.component.ts#Eintrag#86;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/create-sub-form/create-sub-form.component.ts#EventEmitter#19;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/create-sub-form/create-sub-form.component.ts#FormControl#134;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/create-sub-form/create-sub-form.component.ts#FormGroup#147;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/create-sub-form/create-sub-form.component.ts#Input#33;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/create-sub-form/create-sub-form.component.ts#OnInit#40;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/create-sub-form/create-sub-form.component.ts#Output#48;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/containers/create-sub/create-sub.component.spec.ts#ComponentFixture#16;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/create-sub/create-sub.component.spec.ts#CreateSubComponent#84;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/create-sub/create-sub.component.spec.ts#TestBed#34;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/create-sub/create-sub.component.spec.ts#async#9;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/containers/create-sub/create-sub.component.ts#ActivatedRoute#107;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/create-sub/create-sub.component.ts#Component#9;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/create-sub/create-sub.component.ts#CreateSubComponent#219;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/create-sub/create-sub.component.ts#Eintrag#59;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/create-sub/create-sub.component.ts#EintragService#163;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/create-sub/create-sub.component.ts#OnInit#20;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/create-sub/create-sub.component.ts#Router#123;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/containers/create/create.component.spec.ts#ComponentFixture#16;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/create/create.component.spec.ts#CreateComponent#84;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/create/create.component.spec.ts#TestBed#34;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/create/create.component.spec.ts#async#9;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/containers/create/create.component.ts#ActivatedRoute#122;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/create/create.component.ts#Component#9;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/create/create.component.ts#CreateComponent#219;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/create/create.component.ts#Eintrag#178;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/create/create.component.ts#EintragService#59;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/create/create.component.ts#OnInit#20;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/create/create.component.ts#Router#138;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/containers/eintrag/eintrag.component.spec.ts#ComponentFixture#16;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/eintrag/eintrag.component.spec.ts#EintragComponent#84;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/eintrag/eintrag.component.spec.ts#TestBed#34;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/eintrag/eintrag.component.spec.ts#async#9;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/containers/eintrag/eintrag.component.ts#ActivatedRoute#105;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/eintrag/eintrag.component.ts#Component#8;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/eintrag/eintrag.component.ts#Eintrag#57;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/eintrag/eintrag.component.ts#EintragComponent#217;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/eintrag/eintrag.component.ts#EintragService#161;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/eintrag/eintrag.component.ts#OnInit#19;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/eintrag/eintrag.component.ts#Router#121;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/services/eintrag.service.ts#Eintrag#8;/home/janik/Dokumente/projects/wiki/web-ui/src/app/services/eintrag.service.ts#EintragService#231;/home/janik/Dokumente/projects/wiki/web-ui/src/app/services/eintrag.service.ts#HttpClient#124;/home/janik/Dokumente/projects/wiki/web-ui/src/app/services/eintrag.service.ts#Injectable#43;/home/janik/Dokumente/projects/wiki/web-ui/src/app/services/eintrag.service.ts#Observable#85;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/services/eintrag.ts#Eintrag#0;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/node_modules/@angular/core/src/event_emitter.d.ts#EventEmitter#235;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/node_modules/@angular/forms/src/form_providers.d.ts#FormsModule#256;/home/janik/Dokumente/projects/wiki/web-ui/node_modules/@angular/forms/src/form_providers.d.ts#ReactiveFormsModule#519;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/containers/home/home.component.spec.ts#ComponentFixture#16;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/home/home.component.spec.ts#HomeComponent#84;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/home/home.component.spec.ts#TestBed#34;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/home/home.component.spec.ts#async#9;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/containers/home/home.component.ts#ActivatedRoute#149;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/home/home.component.ts#Component#8;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/home/home.component.ts#Eintrag#205;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/home/home.component.ts#EintragService#86;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/home/home.component.ts#EventEmitter#19;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/home/home.component.ts#HomeComponent#246;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/home/home.component.ts#Input#33;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/home/home.component.ts#OnInit#40;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/home/home.component.ts#Output#48;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/home/home.component.ts#Router#165;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/components/kommentar-form/kommentar-form.component.spec.ts#ComponentFixture#16;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/kommentar-form/kommentar-form.component.spec.ts#KommentarFormComponent#84;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/kommentar-form/kommentar-form.component.spec.ts#TestBed#34;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/kommentar-form/kommentar-form.component.spec.ts#async#9;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/components/kommentar-form/kommentar-form.component.ts#Component#9;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/kommentar-form/kommentar-form.component.ts#KommentarFormComponent#52;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/kommentar-form/kommentar-form.component.ts#OnInit#20;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/node_modules/@angular/core/src/metadata/lifecycle_hooks.d.ts#OnInit#1340;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/node_modules/@angular/common/src/location/location.d.ts#Location#429;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/node_modules/@angular/forms/src/model.d.ts#FormControl#16273;/home/janik/Dokumente/projects/wiki/web-ui/node_modules/@angular/forms/src/model.d.ts#FormGroup#22942;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/node_modules/@angular/common/http/src/module.d.ts#HttpClientModule#2592;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/components/navigation/navigation.component.spec.ts#ComponentFixture#16;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/navigation/navigation.component.spec.ts#NavigationComponent#84;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/navigation/navigation.component.spec.ts#TestBed#34;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/navigation/navigation.component.spec.ts#async#9;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/components/navigation/navigation.component.ts#Component#9;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/navigation/navigation.component.ts#NavigationComponent#52;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/navigation/navigation.component.ts#OnInit#20;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/node_modules/@angular/router/src/router.d.ts#Router#3905;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/node_modules/@angular/router/src/router_module.d.ts#RouterModule#1280;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/node_modules/@angular/router/src/router_state.d.ts#ActivatedRoute#1525;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/components/show-eintrag-list/show-eintrag-list.component.spec.ts#ComponentFixture#16;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-eintrag-list/show-eintrag-list.component.spec.ts#ShowEintragListComponent#84;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-eintrag-list/show-eintrag-list.component.spec.ts#TestBed#34;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-eintrag-list/show-eintrag-list.component.spec.ts#async#9;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/components/show-eintrag-list/show-eintrag-list.component.ts#ActivatedRoute#197;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-eintrag-list/show-eintrag-list.component.ts#Component#8;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-eintrag-list/show-eintrag-list.component.ts#Eintrag#86;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-eintrag-list/show-eintrag-list.component.ts#EintragService#134;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-eintrag-list/show-eintrag-list.component.ts#EventEmitter#19;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-eintrag-list/show-eintrag-list.component.ts#Input#33;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-eintrag-list/show-eintrag-list.component.ts#OnInit#40;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-eintrag-list/show-eintrag-list.component.ts#Output#48;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-eintrag-list/show-eintrag-list.component.ts#Router#213;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-eintrag-list/show-eintrag-list.component.ts#ShowEintragListComponent#246;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/components/show-eintrag/show-eintrag.component.spec.ts#ComponentFixture#16;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-eintrag/show-eintrag.component.spec.ts#ShowEintragComponent#84;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-eintrag/show-eintrag.component.spec.ts#TestBed#34;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-eintrag/show-eintrag.component.spec.ts#async#9;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/components/show-eintrag/show-eintrag.component.ts#Component#8;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-eintrag/show-eintrag.component.ts#Eintrag#125;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-eintrag/show-eintrag.component.ts#EventEmitter#19;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-eintrag/show-eintrag.component.ts#FormControl#173;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-eintrag/show-eintrag.component.ts#FormGroup#186;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-eintrag/show-eintrag.component.ts#Input#33;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-eintrag/show-eintrag.component.ts#Observable#86;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-eintrag/show-eintrag.component.ts#OnInit#40;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-eintrag/show-eintrag.component.ts#Output#48;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-eintrag/show-eintrag.component.ts#ShowEintragComponent#221;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/components/show-kommentar/show-kommentar.component.spec.ts#ComponentFixture#16;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-kommentar/show-kommentar.component.spec.ts#ShowKommentarComponent#84;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-kommentar/show-kommentar.component.spec.ts#TestBed#34;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-kommentar/show-kommentar.component.spec.ts#async#9;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/components/show-kommentar/show-kommentar.component.ts#Component#9;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-kommentar/show-kommentar.component.ts#OnInit#20;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-kommentar/show-kommentar.component.ts#ShowKommentarComponent#52;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/components/show-subeintrag-list/show-subeintrag-list.component.spec.ts#ComponentFixture#16;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-subeintrag-list/show-subeintrag-list.component.spec.ts#ShowSubeintragListComponent#84;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-subeintrag-list/show-subeintrag-list.component.spec.ts#TestBed#34;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-subeintrag-list/show-subeintrag-list.component.spec.ts#async#9;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/components/show-subeintrag-list/show-subeintrag-list.component.ts#ActivatedRoute#134;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-subeintrag-list/show-subeintrag-list.component.ts#Component#8;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-subeintrag-list/show-subeintrag-list.component.ts#Eintrag#86;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-subeintrag-list/show-subeintrag-list.component.ts#EventEmitter#19;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-subeintrag-list/show-subeintrag-list.component.ts#Input#33;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-subeintrag-list/show-subeintrag-list.component.ts#OnInit#40;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-subeintrag-list/show-subeintrag-list.component.ts#Output#48;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-subeintrag-list/show-subeintrag-list.component.ts#ShowSubeintragListComponent#175;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/components/show-subeintrag/show-subeintrag.component.spec.ts#ComponentFixture#16;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-subeintrag/show-subeintrag.component.spec.ts#ShowSubeintragComponent#84;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-subeintrag/show-subeintrag.component.spec.ts#TestBed#34;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-subeintrag/show-subeintrag.component.spec.ts#async#9;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/components/show-subeintrag/show-subeintrag.component.ts#Component#8;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-subeintrag/show-subeintrag.component.ts#Eintrag#86;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-subeintrag/show-subeintrag.component.ts#EventEmitter#19;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-subeintrag/show-subeintrag.component.ts#FormControl#134;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-subeintrag/show-subeintrag.component.ts#FormGroup#147;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-subeintrag/show-subeintrag.component.ts#Input#33;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-subeintrag/show-subeintrag.component.ts#OnInit#40;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-subeintrag/show-subeintrag.component.ts#Output#48;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/show-subeintrag/show-subeintrag.component.ts#ShowSubeintragComponent#182;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/containers/sub-eintrag/sub-eintrag.component.spec.ts#ComponentFixture#16;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/sub-eintrag/sub-eintrag.component.spec.ts#SubEintragComponent#84;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/sub-eintrag/sub-eintrag.component.spec.ts#TestBed#34;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/sub-eintrag/sub-eintrag.component.spec.ts#async#9;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/containers/sub-eintrag/sub-eintrag.component.ts#ActivatedRoute#107;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/sub-eintrag/sub-eintrag.component.ts#Component#9;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/sub-eintrag/sub-eintrag.component.ts#Eintrag#59;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/sub-eintrag/sub-eintrag.component.ts#EintragService#163;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/sub-eintrag/sub-eintrag.component.ts#Location#226;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/sub-eintrag/sub-eintrag.component.ts#OnInit#20;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/sub-eintrag/sub-eintrag.component.ts#Router#123;/home/janik/Dokumente/projects/wiki/web-ui/src/app/containers/sub-eintrag/sub-eintrag.component.ts#SubEintragComponent#261;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/node_modules/@angular/core/testing/src/test_bed.d.ts#TestBed#1089;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/components/update-eintrag-form/update-eintrag-form.component.spec.ts#ComponentFixture#16;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/update-eintrag-form/update-eintrag-form.component.spec.ts#TestBed#34;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/update-eintrag-form/update-eintrag-form.component.spec.ts#UpdateEintragFormComponent#84;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/update-eintrag-form/update-eintrag-form.component.spec.ts#async#9;</node>
+            <node x="" y="">$PROJECT_DIR$/web-ui/src/app/components/update-eintrag-form/update-eintrag-form.component.ts#Component#9;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/update-eintrag-form/update-eintrag-form.component.ts#OnInit#20;/home/janik/Dokumente/projects/wiki/web-ui/src/app/components/update-eintrag-form/update-eintrag-form.component.ts#UpdateEintragFormComponent#52;</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.3307432432432433" x="1470.5849081360423" y="1772.7095564607694" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
         </state>
       </provider>
     </entry>
@@ -1349,17 +1226,149 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+    <entry file="uml://JAVA/com.example.demo.service">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.example.demo.service</OriginalElement>
+          <nodes>
+            <node x="384.0" y="73.0">com.example.demo.service.EintragNotFoundException</node>
+            <node x="194.0" y="251.0">com.example.demo.service.EintragService</node>
+            <node x="0.0" y="0.0">com.example.demo.service.dto.EintragDto</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.example.demo.service.EintragService" target="com.example.demo.service.EintragNotFoundException">
+              <point x="83.75" y="-113.0" />
+              <point x="445.25" y="226.0" />
+              <point x="541.0" y="226.0" />
+              <point x="0.0" y="27.5" />
+            </edge>
+            <edge source="com.example.demo.service.EintragService" target="com.example.demo.service.dto.EintragDto">
+              <point x="-83.75" y="-113.0" />
+              <point x="277.75" y="226.0" />
+              <point x="182.0" y="226.0" />
+              <point x="0.0" y="100.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="279.5" y="237.5" />
+          <SelectedNodes>
+            <node>com.example.demo.service.dto.EintragDto</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="uml://JAVA/com.example.demo.web.controller.EintragRestController">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.example.demo.web.controller.EintragRestController</OriginalElement>
+          <nodes>
+            <node x="0.0" y="271.0">com.example.demo.Application</node>
+            <node x="0.0" y="0.0">com.example.demo.web.controller.EintragRestController</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-143.0" y="61.5" />
+          <SelectedNodes>
+            <node>com.example.demo.web.controller.EintragRestController</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/example/demo/web/controller/EintragRestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="540">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-ui/src/app/services/eintrag.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repository/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/example/demo/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-ui/src/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-ui/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-ui/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-ui/src/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-ui/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-ui/src/app/components/show-kommentar/show-kommentar.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-ui/src/app/components/kommentar-form/kommentar-form.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-ui/src/app/components/kommentar-form/kommentar-form.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-ui/src/styles.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-ui/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

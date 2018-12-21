@@ -15,8 +15,6 @@ import { CreateComponent } from './containers/create/create.component';
 import { CreateFormComponent } from './components/createEintrag-form/create-form.component';
 import { ShowEintragComponent } from './components/show-eintrag/show-eintrag.component';
 import { ShowEintragListComponent } from './components/show-eintrag-list/show-eintrag-list.component';
-import { ShowKommentarComponent } from './components/show-kommentar/show-kommentar.component';
-import { KommentarFormComponent } from './components/kommentar-form/kommentar-form.component';
 import { UpdateEintragFormComponent } from './components/update-eintrag-form/update-eintrag-form.component';
 import { ShowSubeintragListComponent } from './components/show-subeintrag-list/show-subeintrag-list.component';
 import { ShowSubeintragComponent } from './components/show-subeintrag/show-subeintrag.component';
@@ -34,8 +32,6 @@ import { CreateSubFormComponent } from './components/create-sub-form/create-sub-
     CreateFormComponent,
     ShowEintragComponent,
     ShowEintragListComponent,
-    ShowKommentarComponent,
-    KommentarFormComponent,
     UpdateEintragFormComponent,
     ShowSubeintragListComponent,
     ShowSubeintragComponent,
